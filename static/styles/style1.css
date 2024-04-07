@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+:root {
+  --background-blue: rgb(53, 208, 255);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-form {
+  display: flex;
+  width: 60%;
+  height: 80vh;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: stretch;
+  box-shadow: 0 0 20px 6px #090b6f85;
+}
+.box-form .left {
+  width: 50%;
+}
+.box-form .right-container {
+  width: 50%;
+}
+.box-form .left img {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.right-container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+}
+.logo {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.right-container .logo .logo-img {
+  display: flex;
+  align-items: center;
+}
+.right-container .logo .logo-img img {
+  width: 30px;
+  height: auto;
+}
+
+.right {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-content-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90%;
+  align-items: center;
+}
+
+.inputs {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 15px;
+  min-height: 200px;
+  height: auto;
+}
+
+.inputs input {
+  padding: 15px;
+  font-size: 15px;
+  background-color: beige;
+  border-radius: 20px;
+  height: 10px;
+  width: 90%;
+}
+
+.checkbox-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.inputs .left-checkbox {
+  display: flex;
+  width: 50%;
+  font-size: 15px;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-checkbox {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+
+.right-checkbox p a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.signup-btn {
+  width: 70%;
+  font-size: 15px;
+  background-color: var(--background-blue);
+  border-radius: 15px;
+  padding: 10px 0px;
+  height: auto;
+}
+
+.create-acc {
+  font-size: 15px;
+}
+.create-acc a {
+  text-decoration: none;
+}
